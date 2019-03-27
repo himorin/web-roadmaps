@@ -2600,14 +2600,7 @@
     "implementations": [
       {
         "ua": "chrome",
-        "status": "indevelopment",
-        "source": "chromestatus",
-        "href": "https://www.chromestatus.com/feature/6068482055602176",
-        "selected": true
-      },
-      {
-        "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chromestatus",
         "href": "https://www.chromestatus.com/feature/6068482055602176",
         "selected": true
@@ -2629,6 +2622,13 @@
       {
         "ua": "safari",
         "status": "",
+        "source": "chromestatus",
+        "href": "https://www.chromestatus.com/feature/6068482055602176",
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "experimental",
         "source": "chromestatus",
         "href": "https://www.chromestatus.com/feature/6068482055602176",
         "selected": true
@@ -5488,8 +5488,7 @@
           },
           {
             "ua": "edge_mobile",
-            "status": "experimental",
-            "prefix": true,
+            "status": "shipped",
             "source": "mdn",
             "href": "https://developer.mozilla.org/docs/Web/CSS/backface-visibility",
             "selected": true
@@ -5748,8 +5747,7 @@
           },
           {
             "ua": "edge_mobile",
-            "status": "experimental",
-            "prefix": true,
+            "status": "shipped",
             "source": "mdn",
             "href": "https://developer.mozilla.org/docs/Web/CSS/perspective",
             "selected": true
@@ -6004,8 +6002,7 @@
           },
           {
             "ua": "edge_mobile",
-            "status": "experimental",
-            "prefix": true,
+            "status": "shipped",
             "source": "mdn",
             "href": "https://developer.mozilla.org/docs/Web/CSS/perspective-origin",
             "selected": true
@@ -6848,8 +6845,7 @@
           },
           {
             "ua": "edge_mobile",
-            "status": "experimental",
-            "prefix": true,
+            "status": "shipped",
             "source": "mdn",
             "href": "https://developer.mozilla.org/docs/Web/CSS/transform-style",
             "selected": true
@@ -7747,8 +7743,7 @@
       },
       {
         "ua": "edge_mobile",
-        "status": "experimental",
-        "prefix": true,
+        "status": "shipped",
         "source": "mdn",
         "href": "https://developer.mozilla.org/docs/Web/CSS/border-radius",
         "selected": true
@@ -8452,7 +8447,6 @@
             "ua": "firefox",
             "status": "shipped",
             "notes": [
-              "Supports the `page-break-*` alias from the CSS 2.1 specification, but not the `break-*` properties from the latest spec.",
               "Does not support `avoid` for `page-break-before` & `page-break-after` (only `page-break-inside`).",
               "Treats the `left` and `right` values like `always`."
             ],
@@ -10455,11 +10449,7 @@
       },
       {
         "ua": "samsunginternet_android",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Can be enabled via the \"Experimental Web Platform features\" flag"
-        ],
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=css-font-rendering-controls",
         "selected": true
@@ -10516,7 +10506,7 @@
       },
       {
         "ua": "webkit",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "webkitstatus",
         "href": "https://webkit.org/status/#specification-css-font-display"
       },
@@ -11340,6 +11330,17 @@
         "selected": true
       },
       {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "guess": true,
+        "features": [
+          "variable"
+        ],
+        "partial": true,
+        "selected": true
+      },
+      {
         "ua": "chrome",
         "status": "shipped",
         "source": "chromestatus",
@@ -11505,6 +11506,16 @@
             "selected": true
           },
           {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "notes": [
+              "Does not support OpenType-CFF2 fonts"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=variable-fonts",
+            "selected": true
+          },
+          {
             "ua": "chrome",
             "status": "shipped",
             "source": "chromestatus",
@@ -11606,6 +11617,13 @@
           },
           {
             "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
             "status": "shipped",
             "source": "caniuse",
             "guess": true,
@@ -11855,6 +11873,13 @@
             "partial": true
           },
           {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
             "ua": "chrome",
             "status": "shipped",
             "source": "chromestatus",
@@ -12098,6 +12123,13 @@
             "partial": true
           },
           {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
             "ua": "chrome",
             "status": "shipped",
             "source": "chromestatus",
@@ -12284,6 +12316,14 @@
             "source": "caniuse",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true,
+            "selected": true
           },
           {
             "ua": "chrome",
@@ -12487,6 +12527,13 @@
           },
           {
             "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
             "status": "shipped",
             "source": "caniuse",
             "guess": true,
@@ -12747,6 +12794,13 @@
         "href": "https://caniuse.com/#feat=css-overscroll-behavior"
       },
       {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-overscroll-behavior",
+        "selected": true
+      },
+      {
         "ua": "chrome",
         "status": "shipped",
         "source": "chromestatus",
@@ -12854,8 +12908,7 @@
         "ua": "samsunginternet_android",
         "status": "",
         "source": "mdn",
-        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
-        "selected": true
+        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
       }
     ]
   },
@@ -13394,9 +13447,6 @@
       {
         "ua": "safari",
         "status": "",
-        "notes": [
-          "Instead of ignoring the <code>-webkit-text-size-adjust</code> property, a bug prevents desktop Safari users from zooming in or out. The bug was fixed after Safari 5."
-        ],
         "source": "mdn",
         "href": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
       },
@@ -13834,8 +13884,7 @@
       },
       {
         "ua": "edge_mobile",
-        "status": "experimental",
-        "prefix": true,
+        "status": "shipped",
         "source": "mdn",
         "href": "https://developer.mozilla.org/docs/Web/CSS/box-sizing",
         "selected": true
@@ -14163,6 +14212,18 @@
         "selected": true
       },
       {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "guess": true,
+        "features": [
+          "scroll-behavior",
+          "getBoundingClientRect"
+        ],
+        "partial": true,
+        "selected": true
+      },
+      {
         "ua": "qq_android",
         "status": "experimental",
         "source": "caniuse",
@@ -14210,17 +14271,6 @@
       },
       {
         "ua": "uc_android",
-        "status": "shipped",
-        "source": "caniuse",
-        "guess": true,
-        "features": [
-          "getBoundingClientRect"
-        ],
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "samsunginternet_android",
         "status": "shipped",
         "source": "caniuse",
         "guess": true,
@@ -14323,6 +14373,13 @@
           },
           {
             "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=css-scroll-behavior",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
             "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=css-scroll-behavior",
@@ -14451,6 +14508,13 @@
             "partial": true
           },
           {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
             "ua": "qq_android",
             "status": "experimental",
             "source": "caniuse",
@@ -14481,14 +14545,6 @@
           },
           {
             "ua": "uc_android",
-            "status": "shipped",
-            "source": "caniuse",
-            "guess": true,
-            "partial": true,
-            "selected": true
-          },
-          {
-            "ua": "samsunginternet_android",
             "status": "shipped",
             "source": "caniuse",
             "guess": true,
@@ -14660,6 +14716,13 @@
             "partial": true
           },
           {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
             "ua": "qq_android",
             "status": "experimental",
             "source": "caniuse",
@@ -14690,13 +14753,6 @@
           },
           {
             "ua": "uc_android",
-            "status": "shipped",
-            "source": "caniuse",
-            "guess": true,
-            "partial": true
-          },
-          {
-            "ua": "samsunginternet_android",
             "status": "shipped",
             "source": "caniuse",
             "guess": true,
@@ -14749,7 +14805,8 @@
         "ua": "edge",
         "status": "shipped",
         "notes": [
-          "Partial support in IE refers to [significantly buggy behavior](https://web.archive.org/web/20170121011936/http://playground.onereason.eu/2013/04/ie10s-lousy-support-for-datalists/) (IE11+ does send the input and change events upon selection). "
+          "Partial support in IE refers to [significantly buggy behavior](https://web.archive.org/web/20170121011936/http://playground.onereason.eu/2013/04/ie10s-lousy-support-for-datalists/) (IE11+ does send the input and change events upon selection). ",
+          "Partial support in EDGE refers [to disappearing option elements on focusing the input element via tab](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/20066595/)."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=datalist"
@@ -15576,9 +15633,6 @@
       {
         "ua": "samsunginternet_android",
         "status": "shipped",
-        "notes": [
-          "Does not support capture from `<video>`/`<audio>`"
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=mediacapture-fromelement",
         "selected": true
@@ -15764,14 +15818,14 @@
     "implementations": [
       {
         "ua": "chrome",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chromestatus",
         "href": "https://www.chromestatus.com/feature/5167290693713920",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chromestatus",
         "href": "https://www.chromestatus.com/feature/5167290693713920",
         "selected": true
@@ -15793,6 +15847,13 @@
       {
         "ua": "safari",
         "status": "",
+        "source": "chromestatus",
+        "href": "https://www.chromestatus.com/feature/5167290693713920",
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "shipped",
         "source": "chromestatus",
         "href": "https://www.chromestatus.com/feature/5167290693713920",
         "selected": true
@@ -15957,6 +16018,16 @@
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=feature-policy"
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "notes": [
+          "Supported through the `Feature-Policy` header and `allow` attribute on iframes. JS API support is available in Chrome 64+ by enabling the \"Experimental Web Platform features\" feature flag in under about:flags."
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=feature-policy",
+        "selected": true
       },
       {
         "ua": "chrome",
@@ -16410,13 +16481,7 @@
       },
       {
         "ua": "firefox_android",
-        "status": "experimental",
-        "prefix": true,
-        "notes": [
-          "Partial support refers to supporting an earlier draft of the spec.",
-          "Partial support refers to not returning a Promise, as specified in the latest version of the spec.",
-          "Unprefixed support is available behind the `full-screen-api.unprefix.enabled` flag"
-        ],
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=fullscreen",
         "selected": true
@@ -19330,7 +19395,7 @@
           },
           {
             "ua": "firefox",
-            "status": "",
+            "status": "shipped",
             "source": "chromestatus",
             "href": "https://www.chromestatus.com/feature/5869632707624960",
             "selected": true
@@ -19649,6 +19714,17 @@
         "selected": true
       },
       {
+        "ua": "firefox_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "guess": true,
+        "features": [
+          "mf-interaction"
+        ],
+        "partial": true,
+        "selected": true
+      },
+      {
         "ua": "uc_android",
         "status": "shipped",
         "source": "caniuse",
@@ -19782,6 +19858,13 @@
             "href": "https://caniuse.com/#feat=css-media-interaction"
           },
           {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=css-media-interaction",
+            "selected": true
+          },
+          {
             "ua": "uc_android",
             "status": "shipped",
             "source": "caniuse",
@@ -19891,6 +19974,13 @@
           },
           {
             "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
             "status": "shipped",
             "source": "caniuse",
             "guess": true,
@@ -20574,9 +20664,6 @@
       {
         "ua": "samsunginternet_android",
         "status": "shipped",
-        "notes": [
-          "Only supports the `type` and `downlinkMax` values."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=netinfo",
         "selected": true
@@ -25045,14 +25132,7 @@
     "implementations": [
       {
         "ua": "chrome",
-        "status": "indevelopment",
-        "source": "chromestatus",
-        "href": "https://www.chromestatus.com/feature/6744724455030784",
-        "selected": true
-      },
-      {
-        "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "chromestatus",
         "href": "https://www.chromestatus.com/feature/6744724455030784",
         "selected": true
@@ -26625,7 +26705,7 @@
       },
       {
         "ua": "webkit",
-        "status": "experimental",
+        "status": "shipped",
         "source": "webkitstatus",
         "href": "https://webkit.org/status/#feature-subresource-integrity"
       }
@@ -27040,7 +27120,7 @@
       },
       {
         "ua": "webkit",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "webkitstatus",
         "guess": true,
         "features": [
@@ -27102,7 +27182,7 @@
           },
           {
             "ua": "webkit",
-            "status": "indevelopment",
+            "status": "shipped",
             "source": "webkitstatus",
             "href": "https://webkit.org/status/#feature-readable-streams"
           },
@@ -27225,7 +27305,7 @@
           },
           {
             "ua": "webkit",
-            "status": "indevelopment",
+            "status": "shipped",
             "source": "webkitstatus",
             "guess": true,
             "partial": true
@@ -27401,7 +27481,7 @@
           },
           {
             "ua": "webkit",
-            "status": "indevelopment",
+            "status": "shipped",
             "source": "webkitstatus",
             "guess": true,
             "partial": true
@@ -27571,7 +27651,7 @@
           },
           {
             "ua": "webkit",
-            "status": "indevelopment",
+            "status": "shipped",
             "source": "webkitstatus",
             "guess": true,
             "partial": true
@@ -28605,7 +28685,7 @@
       },
       {
         "ua": "webkit",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "webkitstatus",
         "href": "https://webkit.org/status/#feature-visual-viewport-api"
       }
@@ -29290,7 +29370,7 @@
       },
       {
         "ua": "webkit",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "webkitstatus",
         "href": "https://webkit.org/status/#feature-web-audio"
       }
