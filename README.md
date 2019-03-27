@@ -1,5 +1,11 @@
 # このレポジトリについて
 
+日本語版は正式に[Web technology roadmaps](https://w3c.github.io/web-roadmaps/)サイトに移動しました。現在日本語訳が提供されているロードマップは以下のものになります。修正提案なども[公式版 GitHub レポジトリ](https://github.com/w3c/web-roadmaps/)のほうに投げていただけますようお願いします。
+
+* [Games on the web](https://w3c.github.io/web-roadmaps/games/index.ja.html)
+
+## 旧説明
+
 このレポジトリは[Web technology roadmaps](https://w3c.github.io/web-roadmaps/)の非公式日本語仮訳の
 ためのレポジトリです。
 
